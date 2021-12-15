@@ -24,6 +24,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MlKitBau">
+
+        <meta-data
+            android:name="com.huawei.hms.ml.DEPENDENCY"
+            android:value= "ocr"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -35,21 +40,6 @@
         </activity>
     </application>
 
-    <meta-data
-        android:name="com.huawei.hms.ml.DEPENDENCY"
-        android:value= "ocr"/>
 
-    <meta-data
-        android:name="com.huawei.hms.ml.DEPENDENCY"
-        android:value= "icr"/>
-
-    <meta-data
-        android:name="com.huawei.hms.ml.DEPENDENCY"
-        android:value= "bcr"/>
-
-    <meta-data
-        android:name="com.huawei.hms.ml.DEPENDENCY"
-        android:value= "fr"
-        />
 
 </manifest>

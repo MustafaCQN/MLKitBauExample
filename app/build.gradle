@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.mustafacqn.mlkitbau"
-        minSdk 21
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -45,5 +45,9 @@ dependencies {
     implementation 'com.huawei.hms:ml-computer-card-gcr-plugin:3.2.0.300'
     implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.2.0.300'
     implementation 'com.huawei.hms:ml-computer-vision-formrecognition-model:3.2.0.300'
+
+    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint:3.2.0.300'
+    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint-model:3.2.0.300'
+    implementation 'com.huawei.hms:ml-computer-vision-gesture-model:3.2.0.300'
 
 }
